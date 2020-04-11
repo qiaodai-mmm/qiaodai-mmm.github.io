@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客搭建总结和笔记</title>
+      <link href="/2020/04/10/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93%E5%92%8C%E7%AC%94%E8%AE%B0/"/>
+      <url>/2020/04/10/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93%E5%92%8C%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp; 关于hexo博客搭建并部署到github上实现个人网站。  </p><p><strong>注：在搭建过程中，肯定会遇到各种各样的问题，踩坑是一个必须的过程.</strong> </p><hr><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="工具的安装"><a href="#工具的安装" class="headerlink" title="工具的安装"></a>工具的安装</h3><h4 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装<strong>node.js</strong></h4><ol><li><p><a href="https://baike.baidu.com/item/node.js/7567977" target="_blank" rel="noopener">什么是node.js</a>  </p><blockquote><p>在这里并不需要了解node.js是个什么东西，知道它是搭建个人站点的一个工具就行了，不影响后续操作。  </p></blockquote></li><li><p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">下载node.js</a><br>&emsp;下载左边的长期支持版。  </p></li><li><p>检验安装   </p></li></ol><p>&emsp;windows用户<em>win+r<em>输入</em>cmd<em>唤出命令提示符界面<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/win.png" alt="win键" loading="lazy"><br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/cmd.png" alt="cmd" loading="lazy"><br>*</em>然后打开这个界面就行了</em><br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/mingling.jpg" alt="命令提示符" loading="lazy"><br>下载node.js会附带npm<br>在这里输入<br><code>node -v</code><br><code>npm -v</code><br>来查看是否下载成功和版本号。  </p><h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装<strong>Git</strong></h4><ol><li><a href="https://git-scm.com" target="_blank" rel="noopener">git下载地址</a>但是官网下载比较慢，可以从<a href="https://pc.qq.com/detail/13/detail_22693.html" target="_blank" rel="noopener">这个地址</a>下载.  </li><li>注册github账户<br>&emsp; 这一步过于简单，不再阐述。    </li></ol><p><strong>注意：你的github用户名会成为你的域名前缀</strong>  </p><h4 id="安装博客编辑器VScode"><a href="#安装博客编辑器VScode" class="headerlink" title="安装博客编辑器VScode"></a>安装博客编辑器VScode</h4><p>&emsp;关于编辑器，VScode我‘十分’推荐(用什么无所谓，只要支持Markdown就行)，因为它好看。我写html、css、C或者读书笔记都用这个，不过需要安装插件，对新手不太友好。<br>    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode下载地址</a></p><hr><hr><h3 id="安装hexo博客框架"><a href="#安装hexo博客框架" class="headerlink" title="安装hexo博客框架"></a>安装hexo博客框架</h3><ol><li><p><strong>安装cnpm</strong><br>&emsp; 本来是要用npm来安装hexo的，但是在国内安装镜像源的速度非常慢，所以需要先利用npm下载淘宝镜像。输入<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br>下载完成后输入<code>cnpm -v</code>查看版本   。  </p></li><li><p><strong>安装hexo</strong><br>&emsp;然后就可以用cnpm来安装hexo了.输入<code>cnpm install -g hexo-cli</code>进行安装，等待安装完成。  </p></li><li><p><strong>新建文件夹</strong><br>输入<code>mkdir blog</code>来新建一个文件夹，当然可以任意取名，我用的是blog。之后的所有东西都会在这个新建的文件夹中进行。<br><strong>注：如果出现了某些神奇的问题，难以解决，直接把这个文件夹删掉，重新来过就行。</strong></p></li><li><p><strong>初始化博客</strong><br>命令行：<code>cd blog</code>进入文件夹<br>由于这里是从win+r cmd进入的命令提示符，已经是管理员运行的身份，所以输入<code>hexo init</code>初始化博客。  </p><blockquote><p>这里会等待很长的一段时间，可以看看电视，打把游戏之类的。  </p></blockquote></li><li><p><strong>本地运行</strong><br>输入<code>heox s</code>然后进入<a href="http://localhost:4000" target="_blank" rel="noopener">本地预览</a>。有一篇hello world，下面有关于hexo的一些使用方法。</p><blockquote><p>注：hexo支持缩写</p></blockquote></li></ol><hr><h3 id="如何新建一篇文章"><a href="#如何新建一篇文章" class="headerlink" title="如何新建一篇文章"></a>如何新建一篇文章</h3><ol><li>在blog文件夹下<code>hexo n &quot;我的第一篇博客&quot;</code>打开blog\source\ _posts文件夹就会发现多了一个<strong><em>我的第一篇博客.md</em></strong></li><li>打开就可以编辑想要的内容了，编辑后保存关闭。</li><li>先<code>hexo clean</code>清理一下</li><li>再<code>hexo g</code>生成静态文件</li><li>重新启动hexo<code>hexo s</code>,在本地4000端口就有了一篇新的博客。</li></ol><hr><h3 id="将博客部署到github"><a href="#将博客部署到github" class="headerlink" title="将博客部署到github"></a>将博客部署到github</h3><ol><li>登录你的github账户</li><li>新建一个储存库<img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/xinjian.jpg" alt="新建" loading="lazy"><br>如上图。我用了goegle翻译，所以是中文的。<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/%E5%BB%BA%E5%BA%931.jpg" alt="建库" loading="lazy"> </li></ol><p><strong>注意：前面的那个就是用户名，仓库名必须是这个！那个双引号只是为了强调，不能加！</strong>   </p><p>下面的那个框是‘描述’，写不写随便，然后点击最下面的的绿色按键就OK啦！<br>3. 复制仓库链接<img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/HTTP.jpg" alt="giao" loading="lazy"><br>4. 配置blog目录下的<code>_config.yml</code>文件<img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/%E9%85%8D%E7%BD%AE.jpg" alt loading="lazy"><br>5. 打开文件，（可以用记事本直接打开，省事，并不影响操作。）滑到文件最下面修改以下配置   </p><pre><code>deploy:type: gitrepo: 储存库的地址branch: master</code></pre><p>&emsp;把储存库的地址拷贝上去就行了。<br> <strong>注意了，每个冒号后面都要有一个空格，别忘了仔细检查一下</strong>  </p><ol start="6"><li>保存退出，在命令行中输入（blog目录下）<code>hexo d</code>，然后输入的github账号和密码就OK啦。  </li></ol><p><strong>密码不会显示，别以为没输上去就一直敲（过来人的友情提醒）</strong>  </p><ol><li>访问https://储存库名，就可以看到刚才写的博客了。（由于是国外服务器，访问比较慢，多刷新几次就好。）  </li></ol><p><strong>到此所有操作都已完成，你就可以写自己的博客了。</strong></p><hr><h2 id="特别声明："><a href="#特别声明：" class="headerlink" title="特别声明："></a>特别声明：</h2><h3 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h3><p>推荐一个B站up主：Codeheep（程序羊）<br>我也是他的小粉丝，他有一期视频是讲解如何搭建博客的，非常到位。<a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1428" target="_blank" rel="noopener">过去看看</a>   </p><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>本主题使用的是云游君的yun，<a href="https://www.yunyoujun.cn/" target="_blank" rel="noopener">去看看</a><br>如果你也喜欢本主题，去点个<a href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank" rel="noopener">star</a>就可以使用了。</p><hr><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><p><strong>&emsp;在这里我会写一下搭建过程中常见的一些错误及纠正方法，如果在搭建时出了错，可以在评论下方留言，我会帮你一起解决（我小白一个，真解决还得找‘度娘‘’谷哥‘，哈哈）</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇博客</title>
+      <link href="/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>#第一篇博客   </p><p>忙活了一天一夜，就睡了四个小时，总算是搭建好了（庆祝.jpg），不过现在只有这一篇文章，其他设置和功能暂未完善。</p><p>.<br>.<br>.<br>.<br><em>*此篇博客无正文，请等待后期博客更新与美化。</em></p><hr><p>. 今天是第二天了，本来昨天已经搭好了，但是看见了个好看的主题，于是就寻思着换个主题，结果忙活了一天。最后如果不是别人给我指出了错误，估计现在还忙活着呢，（眼瞎看错了一个字符）说出来都是泪。     </p><p>本来想在这插个<strong>熊猫落泪</strong>的表情包，哎，又是一堆事，我还是直接落泪吧<br>（落泪.jpg）<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/30.png" alt="熊猫落泪" loading="lazy"></p><p>这两天先歇歇，正好整理一下踩到的坑和解决方案。（2020.4.7）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
