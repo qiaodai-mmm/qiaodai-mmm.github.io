@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>HTML学习</title>
+      <link href="/2020/04/23/HTML%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2020/04/23/HTML%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;在家闲着好几天了，自从搭建好博客后就没学过HTML了，感觉有点荒废学业。当初是为了搭建自己的网站才开始学习HTML，现在网站搞好了，就有点飘了。但是也是用的别人的主题，自己写不出来。在忍受了好几天的空虚生活后，我开始决定重新开始学习。<br>（￣︶￣）↗（出发） </p><blockquote><p>此篇博客用来记录学习笔记，防止遗忘。</p></blockquote><h2 id="HTML基础"><a href="#HTML基础" class="headerlink" title="HTML基础"></a>HTML基础</h2><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>HTML 链接是通过 &lt;a&gt; 标签进行定义的。  </p><ul><li><p><strong>href</strong>   </p><pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://qiaodai-m.com<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是一个链接<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre><p><a href="http://qiaodai-m.com">这是一个链接</a>  </p></li><li><p><strong>target</strong>   </p></li></ul><p>在&lt;a&gt;中添加<code>target</code>属性，可以改变链接的打开方式，默认值为:<code>_self</code>(在当前页面打开)&emsp;<code>_blank</code>(新窗口打开)</p><pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://qiaodai-m.com<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是一个链接<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre><p><a href="http://qiaodai-m.com" target="_blank">这是一个链接</a></p><ul><li>base<br>base是单标签，写在<code>&lt;head&gt;</code>&emsp;<code>&lt;/head&gt;</code>之间，作用是改变链接的默认行为。</li></ul><h3 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h3><p>HTML 图像是通过 &lt;img&gt; 标签进行定义的。<br>例：</p><pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>head.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>104<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>142<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span> </code></pre><hr><h3 id="元素"><a href="#元素" class="headerlink" title="元素"></a>元素</h3><p>HTML 元素指的是从开始标签（start tag）到结束标签（end tag）的所有代码。<br></p><ul><li>HTML 元素以开始标签起始</li><li>HTML 元素以结束标签终止</li><li>元素的内容是开始标签与结束标签之间的内容</li><li>某些 HTML 元素具有空内容（empty content）</li><li>空元素在开始标签中进行关闭（以开始标签的结束而结束）</li><li>大多数 HTML 元素可拥有属性 <blockquote><p>&lt;br/&gt;用来换行 （空元素）  </p></blockquote><hr></li></ul><h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><p>属性在HTML元素的开始标签中规定</p><blockquote><p>这章没啥写的，<a href="https://www.w3school.com.cn/html/html_attributes.asp" target="_blank" rel="noopener">备忘</a></p></blockquote><hr><h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p>使用<code>&lt;!--  --&gt;</code>来注释内容  </p><pre><code>&lt;!-- 在此处写注释 --&gt;</code></pre><p>快捷键(vscode)：  </p><ul><li><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>a</kbd></li><li><kbd>Ctrl</kbd>+<kbd>/</kbd><hr></li></ul><h3 id="文本格式化"><a href="#文本格式化" class="headerlink" title="文本格式化"></a>文本格式化</h3><ul><li><code>&lt;ins&gt;</code>下划线<br><strong>效果：</strong><br>&emsp;<ins>桥带</ins></li><li><code>&lt;del&gt;</code>删除线<br><strong>效果：</strong><br>&emsp;<del>桥带</del>  </li><li>&lt;q&gt; 用于短的引用</li><li>&lt;blockquote&gt;用于长的引用</li><li>&lt;abbr&gt;用于缩略词<br><strong>效果：</strong><br>&emsp;<abbr title="gan hao shi (干好事)">GHS</abbr></li><li>&lt;dfn&gt;用于定义<hr></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用vscode写markdown</title>
       <link href="/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/"/>
       <url>/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/</url>
@@ -60,7 +85,7 @@
       <link href="/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>    <div id="aplayer-PmSwnUwN" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="41656490" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"></div><p>忙活了一天一夜，就睡了四个小时，总算是搭建好了（庆祝.jpg），不过现在只有这一篇文章，其他设置和功能暂未完善。</p><p>.<br>.<br>.<br>.<br><em>*此篇博客无正文，请等待后期博客更新与美化。</em></p><hr><p>. 今天是第二天了，本来昨天已经搭好了，但是看见了个好看的主题，于是就寻思着换个主题，结果忙活了一天。最后如果不是别人给我指出了错误，估计现在还忙活着呢，（眼瞎看错了一个字符）说出来都是泪。     </p><p>本来想在这插个<strong>熊猫落泪</strong>的表情包，哎，又是一堆事，我还是直接落泪吧<br>（落泪.jpg）<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/30.png" alt="熊猫落泪" loading="lazy"></p><p>这两天先歇歇，正好整理一下踩到的坑和解决方案。（2020.4.7）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>    <div id="aplayer-hUVXWlXY" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="41656490" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"></div><p>忙活了一天一夜，就睡了四个小时，总算是搭建好了（庆祝.jpg），不过现在只有这一篇文章，其他设置和功能暂未完善。</p><p>.<br>.<br>.<br>.<br><em>*此篇博客无正文，请等待后期博客更新与美化。</em></p><hr><p>. 今天是第二天了，本来昨天已经搭好了，但是看见了个好看的主题，于是就寻思着换个主题，结果忙活了一天。最后如果不是别人给我指出了错误，估计现在还忙活着呢，（眼瞎看错了一个字符）说出来都是泪。     </p><p>本来想在这插个<strong>熊猫落泪</strong>的表情包，哎，又是一堆事，我还是直接落泪吧<br>（落泪.jpg）<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/30.png" alt="熊猫落泪" loading="lazy"></p><p>这两天先歇歇，正好整理一下踩到的坑和解决方案。（2020.4.7）</p>]]></content>
       
       
       <categories>
