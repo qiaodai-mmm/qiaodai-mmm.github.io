@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>关于kx上网</title>
+      <link href="/2020/10/05/%E5%A6%82%E4%BD%95kx%E4%B8%8A%E7%BD%91/"/>
+      <url>/2020/10/05/%E5%A6%82%E4%BD%95kx%E4%B8%8A%E7%BD%91/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;距离上次写博客已经过去了大约快半年了， 依稀记得半年前自己搭建博客时遇到的种种困难以及搭建成功后那种难以言喻的喜悦和成就感。<hr>&emsp;至于为什么没有接着写，一方面是因为自己太懒了，写个博客通常要很多时间。别一方面则是因为我现在上的是高中，半个月才放一天假，连放松都来不及，更别提用大半天的时间去写博客。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用vscode写markdown</title>
       <link href="/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/"/>
       <url>/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/</url>
