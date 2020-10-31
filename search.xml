@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>关于kx上网</title>
-      <link href="/2020/10/05/%E5%A6%82%E4%BD%95kx%E4%B8%8A%E7%BD%91/"/>
-      <url>/2020/10/05/%E5%A6%82%E4%BD%95kx%E4%B8%8A%E7%BD%91/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网络 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>用vscode写markdown</title>
       <link href="/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/"/>
       <url>/2020/04/16/%E7%94%A8vscode%E5%86%99markdown/</url>
@@ -85,7 +60,7 @@
       <link href="/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/04/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>    <div id="aplayer-AigygVhF" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="41656490" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"></div><p>忙活了一天一夜，就睡了四个小时，总算是搭建好了（庆祝.jpg），不过现在只有这一篇文章，其他设置和功能暂未完善。</p><p>.<br>.<br>.<br>.<br><em>*此篇博客无正文，请等待后期博客更新与美化。</em></p><hr><p>. 今天是第二天了，本来昨天已经搭好了，但是看见了个好看的主题，于是就寻思着换个主题，结果忙活了一天。最后如果不是别人给我指出了错误，估计现在还忙活着呢，（眼瞎看错了一个字符）说出来都是泪。     </p><p>本来想在这插个<strong>熊猫落泪</strong>的表情包，哎，又是一堆事，我还是直接落泪吧<br>（落泪.jpg）<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/30.png" alt="熊猫落泪" loading="lazy"></p><p>这两天先歇歇，正好整理一下踩到的坑和解决方案。（2020.4.7）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>    <div id="aplayer-WnRpGThe" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="41656490" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"></div><p>忙活了一天一夜，就睡了四个小时，总算是搭建好了（庆祝.jpg），不过现在只有这一篇文章，其他设置和功能暂未完善。</p><p>.<br>.<br>.<br>.<br><em>*此篇博客无正文，请等待后期博客更新与美化。</em></p><hr><p>. 今天是第二天了，本来昨天已经搭好了，但是看见了个好看的主题，于是就寻思着换个主题，结果忙活了一天。最后如果不是别人给我指出了错误，估计现在还忙活着呢，（眼瞎看错了一个字符）说出来都是泪。     </p><p>本来想在这插个<strong>熊猫落泪</strong>的表情包，哎，又是一堆事，我还是直接落泪吧<br>（落泪.jpg）<br><img src="https://cos-1301807709.cos.ap-chengdu.myqcloud.com/30.png" alt="熊猫落泪" loading="lazy"></p><p>这两天先歇歇，正好整理一下踩到的坑和解决方案。（2020.4.7）</p>]]></content>
       
       
       <categories>
